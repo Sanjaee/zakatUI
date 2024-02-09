@@ -1,0 +1,78 @@
+.data {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.header {
+  margin-top: 20px;
+  text-align: center;
+}
+.search {
+  margin-top: 20px;
+  width: 100%;
+}
+.search input {
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 1200px;
+  margin-top: 20px;
+}
+
+table,
+th,
+td {
+  border: 1px solid #ddd;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+.total-row {
+  font-weight: bold;
+}
+.total {
+  margin-top: 20px;
+  width: 100%;
+}
+.show-all-button {
+  text-align: end;
+}
+.show-all-button button {
+  background-color: #45a049;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+@media (max-width: 600px) {
+  .search input {
+    padding: 8px 10px;
+  }
+  .header {
+    font-size: 13px;
+  }
+
+  table {
+    font-size: 8px; /* Menyesuaikan ukuran font pada layar kecil */
+  }
+  .show-all-button button {
+    padding: 5px 10px;
+    font-size: 8px;
+  }
+}
